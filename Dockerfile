@@ -34,3 +34,7 @@ ENV LC_ALL en_US.UTF-8
 # Set up the source directory
 VOLUME ["/source"]
 WORKDIR /source
+
+# Set up the command arguments
+CMD ["-"]
+ENTRYPOINT ["swilgt"]
