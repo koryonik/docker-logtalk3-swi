@@ -32,7 +32,7 @@ Or you can manually build image by below commands :
     Hello World !
 
 ## Enter container for specific usages
-    $ docker run --rm -i -t -v $(pwd):/source --entrypoint bash koryonik/logtalk3-swi
+    $ docker run --rm -i -t -v $(pwd):/source --entrypoint bash koryonik/logtalk-swi
     root@2c5f42d4aae5:/source# swilgt
 
     Logtalk 3.2.1
