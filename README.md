@@ -17,7 +17,7 @@ Or you can manually build image by below commands :
 
     $ docker run --rm -i -t koryonik/logtalk-swi
 
-    Logtalk 3.2.0
+    Logtalk 3.2.1
     ...
     Welcome to SWI-Prolog (Multi-threaded, 64 bits, Version 7.2.3)
     ...
@@ -35,5 +35,5 @@ Or you can manually build image by below commands :
     $ docker run --rm -i -t -v $(pwd):/source --entrypoint bash koryonik/logtalk3-swi
     root@2c5f42d4aae5:/source# swilgt
 
-    Logtalk 3.2.0
-    ?- 
+    Logtalk 3.2.1
+    ?-
